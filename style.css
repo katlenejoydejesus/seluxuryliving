@@ -920,7 +920,7 @@ header.header {
    margin-right: auto;
    background-color: black;
    text-align: center;
-   padding-top: 25px;
+   padding-top: 46px;
    line-height: 40px;
 }
 .footer-contact{
@@ -931,6 +931,7 @@ header.header {
   color: #ffffff;
   line-height: 26px;
   padding-bottom: 30px;
+  text-indent: 26px;
 }
 .footer-outro{
   background: #000000;
@@ -938,6 +939,8 @@ header.header {
   text-align: center;
   line-height: 26px;
   padding-bottom: 90px;
+  padding-left: 182px;
+  padding-right: 178px;
 }
 .copyright{
   background: #000000;
