@@ -827,6 +827,19 @@ header.header {
   font-size: 16px;
   margin-bottom: 32px;
 }
+.properties-gallery-image-container .properties-image
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.properties-gallery-image-container .explore-content
+{
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
 /*#endregion Properties Region */
 
@@ -899,3 +912,48 @@ header.header {
 }
 
 /*#endregion Contact Region */
+
+/*footer */
+.footer .footer-logo{
+   background-color: black;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: black;
+   text-align: center;
+   padding-top: 25px;
+   line-height: 40px;
+}
+.footer-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 26px;
+  padding-bottom: 30px;
+}
+.footer-outro{
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  line-height: 26px;
+  padding-bottom: 90px;
+}
+.copyright{
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  line-height: 26px;
+}
+.mls{
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  line-height: 26px;
+  padding-bottom: 49px;
+}
+.footer .footer-bg{
+  height: 49px;
+  width: 1599px;
+}
+/*end footer */
