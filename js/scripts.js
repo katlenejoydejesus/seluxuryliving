@@ -12,10 +12,7 @@
         },
 
         initDetectScroll: function () {
-            if (
-                jQuery(window).width() > 991 &&
-                jQuery(window).scrollTop() > 56
-            ) {
+            if (jQuery(window).width() > 991 && jQuery(window).scrollTop() > 56) {
                 jQuery("header.header").addClass("show-fixed");
             } else {
                 jQuery("header.header").removeClass("show-fixed");
@@ -26,7 +23,99 @@
             //code here
         },
 
+        initListings: function () {
+            //code here
+
+            var sectionSlick = ".listings-slick";
+            $(sectionSlick).slick({
+                slidesToShow: 1,
+                slideToScroll: 1,
+                infinite: true,
+                dots: false,
+                autoplay: false,
+                autoplaySpeed: 7000,
+                speed: 1000,
+                arrows: false,
+                rows: 1,
+                responsive: [
+                    { breakpoint: 992, settings: { slidesToShow: 1 } },
+                    { breakpoint: 768, settings: { slidesToShow: 1 } },
+                ],
+            });
+            var isSliding = false;
+            jQuery(sectionSlick).on("beforeChange", function () {
+                isSliding = true;
+            });
+            jQuery(sectionSlick).on("afterChange", function () {
+                isSliding = false;
+            });
+            jQuery(".listings-image img").click(function (e) {
+                if (isSliding) {
+                    e.stopImmediatePropagation();
+                    e.stopPropagation();
+                    e.preventDefault();
+                    return;
+                }
+            });
+        },
+
+        initQuickSearch: function () {
+            //code here
+        },
+
         initWelcome: function () {
+            //code here
+        },
+
+        initTeam: function () {
+            //code here
+
+            var sectionSlick = ".team-slick";
+            $(sectionSlick).slick({
+                slidesToShow: 5,
+                slideToScroll: 1,
+                infinite: true,
+                dots: false,
+                autoplay: false,
+                autoplaySpeed: 7000,
+                speed: 1000,
+                arrows: false,
+                rows: 1,
+                responsive: [
+                    { breakpoint: 992, settings: { slidesToShow: 2 } },
+                    { breakpoint: 768, settings: { slidesToShow: 1 } },
+                ],
+            });
+            var isSliding = false;
+            jQuery(sectionSlick).on("beforeChange", function () {
+                isSliding = true;
+            });
+            jQuery(sectionSlick).on("afterChange", function () {
+                isSliding = false;
+            });
+            jQuery(".team-image img").click(function (e) {
+                if (isSliding) {
+                    e.stopImmediatePropagation();
+                    e.stopPropagation();
+                    e.preventDefault();
+                    return;
+                }
+            });
+        },
+
+        initJoinTeam: function () {
+            //code here
+        },
+
+        initProperties: function () {
+            //code here
+        },
+
+        initSocial: function () {
+            //code here
+        },
+
+        initContact: function () {
             //code here
         },
     };
@@ -37,14 +126,28 @@
 
         app.initSlideshow();
 
+        app.initListings();
+
+        app.initQuickSearch();
+
         app.initWelcome();
+
+        app.initTeam();
+
+        app.initJoinTeam();
+
+        app.initProperties();
+
+        app.initSocial();
+
+        app.initContact();
     });
 
     jQuery(window).on("scroll", function () {
         app.initDetectScroll();
     });
 
-    jQuery(window).on("load", function () {});
+    jQuery(window).on("load", function () { });
 
-    jQuery(window).on("resize", function () {});
+    jQuery(window).on("resize", function () { });
 })();
