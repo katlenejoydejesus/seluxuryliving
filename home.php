@@ -160,7 +160,7 @@
                 <div class="team-img canvas-wrapper">
                     <canvas width="308" height="477"></canvas>
                     <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
+                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg" />
                 </div>
                 <div class="team-content">
                     <h3>Meet</h3>
@@ -171,7 +171,7 @@
                 <div class="team-img canvas-wrapper">
                     <canvas width="308" height="477"></canvas>
                     <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
+                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg" />
                 </div>
                 <div class="team-content">
                     <h3>Meet</h3>
@@ -182,7 +182,7 @@
                 <div class="team-img canvas-wrapper">
                     <canvas width="308" height="477"></canvas>
                     <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
+                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-3.jpg" />
                 </div>
                 <div class="team-content">
                     <h3>Meet</h3>
@@ -193,7 +193,7 @@
                 <div class="team-img canvas-wrapper">
                     <canvas width="308" height="477"></canvas>
                     <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
+                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-4.jpg" />
                 </div>
                 <div class="team-content">
                     <h3>Meet</h3>
@@ -204,7 +204,7 @@
                 <div class="team-img canvas-wrapper">
                     <canvas width="308" height="477"></canvas>
                     <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
+                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-5.jpg" />
                 </div>
                 <div class="team-content">
                     <h3>Meet</h3>
@@ -316,7 +316,7 @@
             <a href="[blogurl]" aria-label="press" class="press-item">
                 <div class="press-img canvas-wrapper">
                     <canvas width="359" height="160"></canvas>
-                    <img alt="team" class="img-team canvas-img img-responsive"
+                    <img alt="pree" class="img-pree canvas-img img-responsive"
                         src="<?php echo get_stylesheet_directory_uri() ?>/images/socials-img-3.jpg" />
                 </div>
                 <div class="press-text">
@@ -346,6 +346,7 @@
         <div class="contact-form ">
             <?php echo do_shortcode('[contact-form-7 html_class="use-floating-validation-tip" id="34" title="hp template form 1"]')?>
         </div>
+        
     </div>
 </section>
 <!-- contact end -->

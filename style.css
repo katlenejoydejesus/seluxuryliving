@@ -482,7 +482,7 @@ header.header {
 /*#region Slideshow Region */
 
 .hp-slideshow {
-  /* padding: 30px 24px 30px 24px; */
+  padding: 30px 24px 30px 24px;
 }
 
 /*#endregion Slideshow Region */
@@ -737,26 +737,74 @@ header.header {
   bottom: 20px;
 }
 .hp-team .team-content h3 {
-  font-size: 26px;
+  font-size: 11.97px;
   letter-spacing: 0.1em;
   font-weight: 700;
-  color: #ffc000;
+  color: #515151;
   text-transform: uppercase;
   margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 .hp-team .team-content p {
-  font-size: 15px;
-  color: #ffc000;
+  font-size: 31.52px;
+  color: #515151;
   letter-spacing: 0.1em;
   margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
 }
 
+.region-team-container .site-title h2{
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 60.95px;
+  font-family: 'Playfair Display', serif;
+}
+
+.region-team-container .site-title h3{
+  text-align: center;
+  padding-right: 520px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
 /*#endregion Team Region */
 
 /*#region Join Team Region */
 
 .hp-join-team {
   padding: 30px 24px 30px 24px;
+  background: url(images/our-team-bg.jpg);
+}
+
+.hp-join-team .region-join-team-container{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.region-join-team-container .site-title{
+  padding-left: 228px;
+}
+
+.region-join-team-container .site-title h3{
+  text-align: center;
+  padding-right: 347px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.region-join-team-container .site-title h2{
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 60.95px;
+  font-family: 'Playfair Display', serif;
+}
+
+.region-join-team-container .our-team-text{
+  padding-right: 347px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*#endregion Join Team Region */
@@ -765,6 +813,20 @@ header.header {
 
 .hp-properties {
   padding: 30px 24px 30px 24px;
+}
+
+.region-properties-container .site-title h3{
+  text-align: center;
+  padding-right: 520px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.region-properties-container .site-title h2{
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 60.95px;
+  font-family: 'Playfair Display', serif;
 }
 
 .properties-image {
