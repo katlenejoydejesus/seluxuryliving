@@ -30,21 +30,23 @@
 					<a href="[blogurl]" aria-label="logo">
 						<div class="header-img">
 							<img alt="header" class="img-header"
-								src="<?php echo get_stylesheet_directory_uri() ?>/images/header-logo.png" />
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/header-logo.png" width="202"
+								height="184" />
+							<img alt="header" class="img-header"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/header-fix.png" width="87"
+								height="83" />
 						</div>
 					</a>
 				</div>
 				<nav class="navigation">
-
-
 					<div class="header-contact">
 						<div class="header-phone">
-							<span class="ai-font-phone-o"></span>
-							<?php echo do_shortcode('[ai_phone href="+1.240.475.1357"]240.475.1357[/ai_phone]')?>
+							<span class="ai-font-phone"></span>
+							<?php echo do_shortcode('[ai_phone href="+1.205.308.2835"]205.308.2835[/ai_phone]')?>
 						</div>
 						<div class="header-email">
-							<span class="ai-font-envelope-a"></span>
-							<?php echo do_shortcode('[mail_to email="isdtemplate.com"]isdtemplate.com[/mail_to]')?>
+							<span class="ai-font-envelope-f"></span>
+							<?php echo do_shortcode('[mail_to email="info@seluxuryliving.com"]info@seluxuryliving.com[/mail_to]')?>
 						</div>
 					</div>
 
@@ -52,11 +54,12 @@
 					<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_id' => 'nav', 'theme_location' => 'primary-menu' ) ); ?>
 
 				</nav>
-				<div class="header-logo">
+				<div class="header-logo-right">
 					<a href="[blogurl]" aria-label="logo">
 						<div class="header-img">
 							<img alt="header" class="img-header"
-								src="<?php echo get_stylesheet_directory_uri() ?>/images/header-right-logo.png" />
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/header-right-logo.png"
+								width="143" height="59" />
 						</div>
 					</a>
 				</div>

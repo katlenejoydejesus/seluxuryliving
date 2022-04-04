@@ -13,65 +13,69 @@
     <div class="region-listings-container">
         <div class="listings-slick-wrapper">
             <div class="listings-slick">
-                <a href="[blogurl]" aria-label="listings" class="listings-item">
-                    <div class="listings-img canvas-wrapper">
-                        <canvas width="577" height="396"></canvas>
-                        <img alt="listings" class="img-listings canvas-img img-responsive"
-                            src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-img-1.jpg" />
-                    </div>
-                    <div class="listings-content">
-                        <h3>$4,000,000</h3>
-                        <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
-                        <span class="site-btn">MORE DETAILS</span>
-                    </div>
-                </a>
-                <a href="[blogurl]" aria-label="listings" class="listings-item">
-                    <div class="listings-img canvas-wrapper">
-                        <canvas width="541" height="653"></canvas>
-                        <img alt="listings" class="img-listings canvas-img img-responsive"
-                            src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-img-2.jpg" />
-                    </div>
-                    <div class="listings-content">
-                        <h3>$3,000,000</h3>
-                        <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
-                        <span class="site-btn">MORE DETAILS</span>
-                    </div>
-                </a>
-                <a href="[blogurl]" aria-label="listings" class="listings-item">
-                    <div class="listings-img canvas-wrapper">
-                        <canvas width="431" height="396"></canvas>
-                        <img alt="listings" class="img-listings canvas-img img-responsive"
-                            src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-img-3.jpg" />
-                    </div>
-                    <div class="listings-content">
-                        <h3>$4,200,000</h3>
-                        <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
-                        <span class="site-btn">MORE DETAILS</span>
-                    </div>
-                </a>
-                <a href="[blogurl]" aria-label="listings" class="listings-item">
-                    <div class="listings-img canvas-wrapper">
-                        <canvas width="690" height="396"></canvas>
-                        <img alt="listings" class="img-listings canvas-img img-responsive"
-                            src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-img-4.jpg" />
-                    </div>
-                    <div class="listings-content">
-                        <h3>$4,500,000</h3>
-                        <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
-                        <span class="site-btn">MORE DETAILS</span>
-                    </div>
-                </a>
+                <div class="listings-slick-gallery">
+                    <a href="[blogurl]" aria-label="listings" class="listings-item">
+                        <div class="listings-img canvas-wrapper">
+                            <canvas width="577" height="396"></canvas>
+                            <img alt="listings" class="img-listings canvas-img img-responsive"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-img-1.jpg" />
+                        </div>
+                        <div class="listings-content">
+                            <h3>$4,000,000</h3>
+                            <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
+                            <span class="site-btn"><span class="ai-font-arrow-b-n"></span> MORE DETAILS</span>
+                        </div>
+                    </a>
+                    <a href="[blogurl]" aria-label="listings" class="listings-item">
+                        <div class="listings-img canvas-wrapper">
+                            <canvas width="541" height="653"></canvas>
+                            <img alt="listings" class="img-listings canvas-img img-responsive"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-img-2.jpg" />
+                        </div>
+                        <div class="listings-content">
+                            <h3>$3,000,000</h3>
+                            <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
+                            <span class="site-btn"><span class="ai-font-arrow-b-n"></span> MORE DETAILS</span>
+                        </div>
+                    </a>
+                    <a href="[blogurl]" aria-label="listings" class="listings-item">
+                        <div class="listings-img canvas-wrapper">
+                            <canvas width="431" height="396"></canvas>
+                            <img alt="listings" class="img-listings canvas-img img-responsive"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-img-3.jpg" />
+                        </div>
+                        <div class="listings-content">
+                            <h3>$4,200,000</h3>
+                            <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
+                            <span class="site-btn"><span class="ai-font-arrow-b-n"></span> MORE DETAILS</span>
+                        </div>
+                    </a>
+                    <a href="[blogurl]" aria-label="listings" class="listings-item">
+                        <div class="listings-img canvas-wrapper">
+                            <canvas width="690" height="396"></canvas>
+                            <img alt="listings" class="img-listings canvas-img img-responsive"
+                                src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-img-4.jpg" />
+                        </div>
+                        <div class="listings-content">
+                            <h3>$4,500,000</h3>
+                            <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
+                            <span class="site-btn"><span class="ai-font-arrow-b-n"></span> MORE DETAILS</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="listings-text">
+                <div class="site-title">
+                    <h3>Featured</h3>
+                    <h2><span class="title-bg">01</span> Listings</h2>
+                    <span class="site-number">01</span>
+                </div>
+                <p>It is with great pleasure that Southeast Luxury Living welcomes you to Alabama, and to their website
+                </p>
             </div>
         </div>
-        <div class="listings-text">
-            <div class="site-title">
-                <h3>Featured</h3>
-                <h2>Listings</h2>
-                <span class="site-number">01</span>
-            </div>
-            <p>It is with great pleasure that Southeast Luxury Living welcomes you to Alabama, and to their website</p>
-        </div>
-        <a href="[blogurl]" aria-label="View ALL PROPERTIES" class="site-btn">View ALL PROPERTIES</a>
+        <a href="[blogurl]" aria-label="View ALL PROPERTIES" class="site-btn"><span class="ai-font-arrow-b-n"></span>
+            View ALL PROPERTIES</a>
     </div>
 </section>
 <!-- listings end -->
@@ -81,7 +85,7 @@
         <div class="quick-search-form">
             <div class="primary-qs-item site-title">
                 <h3>Quick</h3>
-                <h2>Search</h2>
+                <h2><span class="title-bg">02</span>Search</h2>
                 <span class="site-number">02</span>
             </div>
             <div class="secondary-qs-item">
@@ -128,7 +132,7 @@
         <div class="welcome-primary-section">
             <div class="site-title">
                 <h3>MEET</h3>
-                <h2>SOUTH EAST LUXURY LIVING</h2>
+                <h2><span class="title-bg">03</span> SOUTH EAST LUXURY LIVING</h2>
                 <span class="site-number">03</span>
             </div>
             <p>SouthEast Luxury Living originated in Birmingham, Alabama as an extension of Elena Cardone's 10X Luxury
@@ -138,7 +142,8 @@
                 multi-million dollar estate. Our real estate experts are carefully selected as having the qualities to
                 best represent our clients. Southeast Luxury Living prides themselves in giving luxury services with
                 southern hospitality and support.</p>
-            <a href="[blogurl]" aria-label="READ MORE" class="site-btn">READ MORE</a>
+            <a href="[blogurl]" aria-label="READ MORE" class="site-btn"><span class="ai-font-arrow-b-n"></span> READ
+                MORE</a>
         </div>
         <div class="welcome-secondary-section">
             <img alt="agent" class="img-responsive"
@@ -152,7 +157,7 @@
     <div class="region-team-container">
         <div class="site-title">
             <h3>MEET</h3>
-            <h2>Mark, Bobby and Lori</h2>
+            <h2><span class="title-bg">04</span> Mark, Bobby and Lori</h2>
             <span class="site-number">04</span>
         </div>
         <div class="team-slick">
@@ -212,7 +217,8 @@
                 </div>
             </a>
         </div>
-        <a href="#" aria-label="Meet the team" class="site-btn">Meet the team</a>
+        <a href="#" aria-label="Meet the team" class="site-btn"><span class="ai-font-arrow-b-n"></span> Meet the
+            team</a>
     </div>
 </section>
 <!-- team end -->
@@ -221,7 +227,7 @@
     <div class="region-join-team-container">
         <div class="site-title">
             <h3>JOIN</h3>
-            <h2>OUR TEAM</h2>
+            <h2><span class="title-bg">05</span>OUR TEAM</h2>
             <span class="site-number">05</span>
         </div>
         <div class="our-team-text">
@@ -229,7 +235,7 @@
                 With years of experience in the market, they know how crucial it is for you to find relevant, up-to-
                 date information. The search is over. Their website is designed to be your one-stop shop for real estate
                 in Alabama.</p>
-            <a href="#" aria-label="Join Us" class="site-btn">Join Us</a>
+            <a href="#" aria-label="Join Us" class="site-btn"><span class="ai-font-arrow-b-n"></span> Join Us</a>
         </div>
     </div>
 </section>
@@ -239,7 +245,7 @@
     <div class="region-properties-container">
         <div class="site-title">
             <h3>PROPERTIES</h3>
-            <h2>YOU CAN EXPLORE</h2>
+            <h2><span class="title-bg">05</span>YOU CAN EXPLORE</h2>
             <span class="site-number">05</span>
         </div>
         <div class="properties-gallery-image-container">
@@ -285,7 +291,7 @@
     <div class="region-social-container">
         <div class="site-title">
             <h3>In</h3>
-            <h2>THE PRESS</h2>
+            <h2><span class="title-bg">06</span>THE PRESS</h2>
             <span class="site-number">06</span>
         </div>
         <div class="press-content">
@@ -326,7 +332,7 @@
                 </div>
             </a>
         </div>
-        <a href="#" aria-label="View ALl" class="site-btn">View ALl</a>
+        <a href="#" aria-label="View ALl" class="site-btn"><span class="ai-font-arrow-b-n"></span> View ALl</a>
     </div>
 </section>
 <!-- social end -->
@@ -335,7 +341,7 @@
     <div class="region-contact-container">
         <div class="site-title">
             <h3>QUESTIONS?</h3>
-            <h2>CONTACT US NOW</h2>
+            <h2><span class="title-bg">07</span>CONTACT US NOW</h2>
             <span class="site-number">07</span>
         </div>
         <div class="contact-form ">
