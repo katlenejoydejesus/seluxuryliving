@@ -327,6 +327,11 @@
             </a>
         </div>
         <a href="#" aria-label="View ALl" class="site-btn">View ALl</a>
+            <div class="press-bg">
+                <canvas width="1142" height="48"></canvas>
+                <img alt="team" class="bg-team"
+                    src="<?php echo get_stylesheet_directory_uri() ?>/images/socials-bg-2.jpg" />
+            </div>
     </div>
 </section>
 <!-- social end -->
