@@ -910,13 +910,25 @@ header.header {
 }
 
 .region-social-container .site-title{
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .region-social-container .site-title h2{
   text-align: center;
   font-size: 60.95px;
   font-family: 'Playfair Display', serif;
+}
+
+.hp-social::before {
+  content: "";
+  position: absolute;
+  background: url(images/socials-bg-1.jpg);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none;
 }
 
 .region-social-container .site-title h3{
@@ -936,6 +948,10 @@ header.header {
   font-size: 15px;
   line-height: 20px;
   font-family:  'Montserrat', sans-serif;
+}
+
+.press-bg{
+
 }
 /*#endregion Social Region */
 
@@ -959,7 +975,7 @@ header.header {
   max-width: 800px;
   margin: 0 auto;
   font-size: 0;
-  background: #2b2c2e;
+  background: transparent;
   padding: 46px 100px 60px;
   z-index: 2;
   background-image: image();
@@ -977,6 +993,8 @@ header.header {
   background: transparent;
   font-size: 13px;
   letter-spacing: 0.1em;
+  color: #000000;
+  background-color: #ffffff;
 }
 .contact-form .form-lg textarea {
   width: 100%;
@@ -986,6 +1004,8 @@ header.header {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   resize: none;
+  color: #000000;
+  background-color: #ffffff;
 }
 .contact-form .form-lg {
   position: relative;
@@ -1000,6 +1020,16 @@ header.header {
   padding-left: 5px;
 }
 
+.region-contact-container .site-title{
+  padding-top: 150px;
+  padding-bottom: 52px;
+}
+
+.site-number{
+    display: grid;
+    padding-left: 513px;
+}
+
 .hp-contact::before {
   content: "";
   position: absolute;
@@ -1010,6 +1040,10 @@ header.header {
   left: 0;
   z-index: -1;
   pointer-events: none;
+}
+
+.form-btn-wrapper{
+  text-align: center;
 }
 
 .region-contact-container .site-title h2{
@@ -1030,10 +1064,10 @@ header.header {
 
 /*footer */
 .footer .footer-logo{
-   background-color: black;
+   background-color: #000000;
    margin-left: auto;
    margin-right: auto;
-   background-color: black;
+   background-color: #000000;
    text-align: center;
    padding-top: 46px;
    line-height: 40px;
