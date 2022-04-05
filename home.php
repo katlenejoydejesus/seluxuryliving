@@ -374,6 +374,7 @@
         </div>
         <div class="form-btn-wrapper" style="">
         </div>
+        <span class="contact-accent"></span>
 </section>
 <!-- contact end -->
 <?php get_footer(); ?>

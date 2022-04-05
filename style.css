@@ -279,7 +279,7 @@ canvas {
 /* Site title primary */
 .site-title {
   display: grid;
-  justify-content: start;
+  justify-content: center;
 }
 .title-bg {
   position: absolute;
@@ -1035,7 +1035,6 @@ header.header img {
 
 .hp-join-team {
   padding: 30px 24px 30px 24px;
-  background: url(images/our-team-bg.jpg);
 }
 
 .hp-join-team .region-join-team-container {
@@ -1173,7 +1172,8 @@ header.header img {
 }
 
 .region-social-container .site-title {
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 .region-social-container .site-title h2 {
@@ -1185,8 +1185,8 @@ header.header img {
 .hp-social::before {
   content: "";
   position: absolute;
-  background: url(images/socials-bg-1.jpg);
-  width: 100%;
+  background: url(images/socials-bg-1.jpg) center/cover no-repeat;
+  width: 1503px;
   height: 100%;
   top: 0;
   left: 0;
@@ -1213,8 +1213,6 @@ header.header img {
   font-family: "Montserrat", sans-serif;
 }
 
-.press-bg {
-}
 /*#endregion Social Region */
 
 /*#region Contact Region */
@@ -1222,7 +1220,6 @@ header.header img {
 .hp-contact {
   padding: 30px 24px 30px 24px;
 }
-
 .contact-form .form-md input,
 .contact-form .form-lg textarea {
   border: solid 1px #ffffff;
@@ -1235,7 +1232,7 @@ header.header img {
   margin: 0 auto;
   font-size: 0;
   background: transparent;
-  padding: 46px 100px 60px;
+  padding: 46px 49px 60px;
   z-index: 2;
   background-image: image();
 }
@@ -1281,7 +1278,6 @@ header.header img {
 .contact-form .middle-pad-right {
   padding-left: 5px;
 }
-
 .region-contact-container .site-title {
   padding-top: 150px;
   padding-bottom: 52px;
@@ -1295,13 +1291,14 @@ header.header img {
 .hp-contact::before {
   content: "";
   position: absolute;
-  background: url(images/contact-bg.jpg);
+  background: url(images/contact-bg.jpg) center/cover no-repeat;
   width: 100%;
-  height: 100%;
+  height: 121%;
   top: 0;
   left: 0;
   z-index: -1;
   pointer-events: none;
+  opacity: 0.5;
 }
 
 .form-btn-wrapper {
@@ -1318,8 +1315,9 @@ header.header img {
 .region-contact-container .site-title h3 {
   text-align: center;
   padding-right: 520px;
+  font-weight: 500;
   font-size: 18px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*#endregion Contact Region */
