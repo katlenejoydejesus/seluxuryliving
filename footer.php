@@ -9,7 +9,7 @@
 
 	<div class="footer-logo">
 		<img alt="header" class="img-header"
-			src="<?php echo get_stylesheet_directory_uri() ?>/images/footer-logo.png" />
+			src="<?php echo get_stylesheet_directory_uri() ?>/images/footer-logo.png" class= "center"/>
 	</div>
 	<div class="footer-contact">
 		<div class="footer-contact-item">
@@ -26,9 +26,8 @@
 		</div>
 	</div>
 	<p class="footer-outro">
-		Southeast Luxury Living is committed to providing an accessible website. If you have difficulty accessing
-		content, have difficulty viewing a file on the website, or notice any accessibility problems, please contact us
-		at
+		Southeast Luxury Living is committed to providing an accessible website. If you have difficulty accessing content, have difficulty viewing a file on the website, or
+		notice any accessibility problems, please contact us at
 		<?php echo do_shortcode('[ai_phone
 		href="+1.205.308.2835"] 205.308.2835[/ai_phone]')?> to specify the nature of the accessibility issue and any
 		assistive technology you use. We strive
@@ -42,6 +41,10 @@
 	<div class="mls">
 		<em class="ai-font-eho" title="MLS"></em>
 		<em class="ai-font-realtor-mls" title="MLS"></em>
+	</div>
+	<div class="footer-bg">
+		<img alt="footer" class="bg-footer"
+			src="<?php echo get_stylesheet_directory_uri() ?>/images/footer-img-bg.jpg" class= "center"/>
 	</div>
 </footer>
 

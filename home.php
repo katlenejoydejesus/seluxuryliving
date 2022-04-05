@@ -23,6 +23,11 @@
                         <div class="listings-content">
                             <h3>$4,000,000</h3>
                             <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
+
+                        </div>
+                        <div class="listings-content2">
+                            <h3>$4,000,000</h3>
+                            <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
                             <span class="site-btn"><span class="ai-font-arrow-b-n"></span> MORE DETAILS</span>
                         </div>
                     </a>
@@ -33,6 +38,11 @@
                                 src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-img-2.jpg" />
                         </div>
                         <div class="listings-content">
+                            <h3>$3,000,000</h3>
+                            <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
+
+                        </div>
+                        <div class="listings-content2">
                             <h3>$3,000,000</h3>
                             <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
                             <span class="site-btn"><span class="ai-font-arrow-b-n"></span> MORE DETAILS</span>
@@ -47,6 +57,11 @@
                         <div class="listings-content">
                             <h3>$4,200,000</h3>
                             <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
+
+                        </div>
+                        <div class="listings-content2">
+                            <h3>$4,200,000</h3>
+                            <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
                             <span class="site-btn"><span class="ai-font-arrow-b-n"></span> MORE DETAILS</span>
                         </div>
                     </a>
@@ -57,6 +72,11 @@
                                 src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-img-4.jpg" />
                         </div>
                         <div class="listings-content">
+                            <h3>$4,500,000</h3>
+                            <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
+
+                        </div>
+                        <div class="listings-content2">
                             <h3>$4,500,000</h3>
                             <p>1700 East Walnut Avenue, Suite 400,<br> El Segundo, aL 90245</p>
                             <span class="site-btn"><span class="ai-font-arrow-b-n"></span> MORE DETAILS</span>
@@ -165,7 +185,7 @@
                 <div class="team-img canvas-wrapper">
                     <canvas width="308" height="477"></canvas>
                     <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
+                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg" />
                 </div>
                 <div class="team-content">
                     <h3>Meet</h3>
@@ -176,7 +196,7 @@
                 <div class="team-img canvas-wrapper">
                     <canvas width="308" height="477"></canvas>
                     <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
+                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg" />
                 </div>
                 <div class="team-content">
                     <h3>Meet</h3>
@@ -187,7 +207,7 @@
                 <div class="team-img canvas-wrapper">
                     <canvas width="308" height="477"></canvas>
                     <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
+                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-3.jpg" />
                 </div>
                 <div class="team-content">
                     <h3>Meet</h3>
@@ -198,7 +218,7 @@
                 <div class="team-img canvas-wrapper">
                     <canvas width="308" height="477"></canvas>
                     <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
+                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-4.jpg" />
                 </div>
                 <div class="team-content">
                     <h3>Meet</h3>
@@ -209,7 +229,7 @@
                 <div class="team-img canvas-wrapper">
                     <canvas width="308" height="477"></canvas>
                     <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-1.jpg" />
+                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-5.jpg" />
                 </div>
                 <div class="team-content">
                     <h3>Meet</h3>
@@ -322,7 +342,7 @@
             <a href="[blogurl]" aria-label="press" class="press-item">
                 <div class="press-img canvas-wrapper">
                     <canvas width="359" height="160"></canvas>
-                    <img alt="team" class="img-team canvas-img img-responsive"
+                    <img alt="pree" class="img-pree canvas-img img-responsive"
                         src="<?php echo get_stylesheet_directory_uri() ?>/images/socials-img-3.jpg" />
                 </div>
                 <div class="press-text">
@@ -333,6 +353,11 @@
             </a>
         </div>
         <a href="#" aria-label="View ALl" class="site-btn"><span class="ai-font-arrow-b-n"></span> View ALl</a>
+        <div class="press-bg">
+            <canvas width="1142" height="48"></canvas>
+            <img alt="socials" class="bg-socials"
+                src="<?php echo get_stylesheet_directory_uri() ?>/images/socials-bg-2.jpg" />
+        </div>
     </div>
 </section>
 <!-- social end -->
@@ -347,7 +372,8 @@
         <div class="contact-form ">
             <?php echo do_shortcode('[contact-form-7 html_class="use-floating-validation-tip" id="34" title="hp template form 1"]')?>
         </div>
-    </div>
+        <div class="form-btn-wrapper" style="">
+        </div>
 </section>
 <!-- contact end -->
 <?php get_footer(); ?>
