@@ -79,7 +79,9 @@
                 autoplay: false,
                 autoplaySpeed: 7000,
                 speed: 1000,
-                arrows: false,
+                arrows: true,
+                prevArrow: ".hp-team .prev",
+                nextArrow: ".hp-team .next",
                 rows: 1,
                 responsive: [
                     { breakpoint: 992, settings: { slidesToShow: 2 } },

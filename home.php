@@ -97,6 +97,10 @@
         <a href="[blogurl]" aria-label="View ALL PROPERTIES" class="site-btn"><span class="ai-font-arrow-b-n"></span>
             View ALL PROPERTIES</a>
     </div>
+    <div class="listings-bg">
+        <img alt="listings background" class="img-responsive"
+            src="<?php echo get_stylesheet_directory_uri() ?>/images/properties-bg.jpg" width="1600" height="914" />
+    </div>
 </section>
 <!-- listings end -->
 <!-- quick-search -->
@@ -139,8 +143,12 @@
                     <option value="5">5+</option>
                 </select>
             </div>
-            <div class="seventh-qs-item">
+            <div class="seventh-qs-item site-btn">
+                <span class="ai-font-arrow-b-n"></span>
                 <div class="qs-search"> <input type="submit" value="Search" aria-label="qs-submit" /> </div>
+            </div>
+            <div class="eight-qs-item">
+                <p>Real Estate IDX Powered By IHomeFinder</p>
             </div>
         </div>
     </div>
@@ -170,6 +178,10 @@
                 src="<?php echo get_stylesheet_directory_uri() ?>/images/welcome-img.jpg" />
         </div>
     </div>
+    <div class="welcome-bg">
+        <img alt="welcome background" class="img-responsive"
+            src="<?php echo get_stylesheet_directory_uri() ?>/images/welcome-bg.jpg" width="1600" height="911" />
+    </div>
 </section>
 <!-- welcome end -->
 <!-- team -->
@@ -180,65 +192,112 @@
             <h2><span class="title-bg">04</span> Mark, Bobby and Lori</h2>
             <span class="site-number">04</span>
         </div>
-        <div class="team-slick">
-            <a href="[blogurl]" aria-label="team" class="team-item">
-                <div class="team-img canvas-wrapper">
-                    <canvas width="308" height="477"></canvas>
-                    <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg" />
-                </div>
-                <div class="team-content">
-                    <h3>Meet</h3>
-                    <p>Mark</p>
-                </div>
-            </a>
-            <a href="[blogurl]" aria-label="team" class="team-item">
-                <div class="team-img canvas-wrapper">
-                    <canvas width="308" height="477"></canvas>
-                    <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg" />
-                </div>
-                <div class="team-content">
-                    <h3>Meet</h3>
-                    <p>Lori</p>
-                </div>
-            </a>
-            <a href="[blogurl]" aria-label="team" class="team-item">
-                <div class="team-img canvas-wrapper">
-                    <canvas width="308" height="477"></canvas>
-                    <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-3.jpg" />
-                </div>
-                <div class="team-content">
-                    <h3>Meet</h3>
-                    <p>Bobby</p>
-                </div>
-            </a>
-            <a href="[blogurl]" aria-label="team" class="team-item">
-                <div class="team-img canvas-wrapper">
-                    <canvas width="308" height="477"></canvas>
-                    <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-4.jpg" />
-                </div>
-                <div class="team-content">
-                    <h3>Meet</h3>
-                    <p>Joe</p>
-                </div>
-            </a>
-            <a href="[blogurl]" aria-label="team" class="team-item">
-                <div class="team-img canvas-wrapper">
-                    <canvas width="308" height="477"></canvas>
-                    <img alt="team" class="img-team canvas-img img-responsive"
-                        src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-5.jpg" />
-                </div>
-                <div class="team-content">
-                    <h3>Meet</h3>
-                    <p>April</p>
-                </div>
-            </a>
+        <div class="team-slick-wrapper">
+            <div class="team-slick">
+                <a href="[blogurl]" aria-label="team" class="team-item">
+                    <div class="team-img canvas-wrapper">
+                        <canvas width="308" height="477"></canvas>
+                        <img alt="team" class="img-team canvas-img img-responsive"
+                            src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg" />
+                    </div>
+                    <div class="team-content">
+                        <div class="tc-left">
+                            <h3>Meet</h3>
+                            <p>Mark</p>
+                        </div>
+                        <div class="tc-right">
+                            <span class="ai-font-arrow-b-n"></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="[blogurl]" aria-label="team" class="team-item">
+                    <div class="team-img canvas-wrapper">
+                        <canvas width="308" height="477"></canvas>
+                        <img alt="team" class="img-team canvas-img img-responsive"
+                            src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg" />
+                    </div>
+                    <div class="team-content">
+                        <div class="tc-left">
+                            <h3>Meet</h3>
+                            <p>Lori</p>
+                        </div>
+                        <div class="tc-right">
+                            <span class="ai-font-arrow-b-n"></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="[blogurl]" aria-label="team" class="team-item">
+                    <div class="team-img canvas-wrapper">
+                        <canvas width="308" height="477"></canvas>
+                        <img alt="team" class="img-team canvas-img img-responsive"
+                            src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-3.jpg" />
+                    </div>
+                    <div class="team-content">
+                        <div class="tc-left">
+                            <h3>Meet</h3>
+                            <p>Bobby</p>
+                        </div>
+                        <div class="tc-right">
+                            <span class="ai-font-arrow-b-n"></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="[blogurl]" aria-label="team" class="team-item">
+                    <div class="team-img canvas-wrapper">
+                        <canvas width="308" height="477"></canvas>
+                        <img alt="team" class="img-team canvas-img img-responsive"
+                            src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-4.jpg" />
+                    </div>
+                    <div class="team-content">
+                        <div class="tc-left">
+                            <h3>Meet</h3>
+                            <p>Joe</p>
+                        </div>
+                        <div class="tc-right">
+                            <span class="ai-font-arrow-b-n"></span>
+                        </div>
+                    </div>
+                </a>
+                <a href="[blogurl]" aria-label="team" class="team-item">
+                    <div class="team-img canvas-wrapper">
+                        <canvas width="308" height="477"></canvas>
+                        <img alt="team" class="img-team canvas-img img-responsive"
+                            src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-5.jpg" />
+                    </div>
+                    <div class="team-content">
+                        <div class="tc-left">
+                            <h3>Meet</h3>
+                            <p>April</p>
+                        </div>
+                        <div class="tc-right">
+                            <span class="ai-font-arrow-b-n"></span>
+                        </div>
+                    </div>
+                </a>
+                <!--  -->
+                <a href="[blogurl]" aria-label="team" class="team-item">
+                    <div class="team-img canvas-wrapper">
+                        <canvas width="308" height="477"></canvas>
+                        <img alt="team" class="img-team canvas-img img-responsive"
+                            src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-5.jpg" />
+                    </div>
+                    <div class="team-content">
+                        <h3>Meet</h3>
+                        <p>April</p>
+                    </div>
+                </a>
+            </div>
+            <div class="team-slick-arrow">
+                <span class="next ai-font-arrow-g-p"></span>
+                <span class="next ai-font-arrow-g-n"></span>
+            </div>
         </div>
         <a href="#" aria-label="Meet the team" class="site-btn"><span class="ai-font-arrow-b-n"></span> Meet the
             team</a>
+    </div>
+    <div class="team-bg">
+        <img alt="team background" class="img-responsive"
+            src="<?php echo get_stylesheet_directory_uri() ?>/images/team-bg.jpg" width="1600" height="549" />
     </div>
 </section>
 <!-- team end -->
