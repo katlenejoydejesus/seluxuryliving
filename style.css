@@ -234,8 +234,8 @@ canvas {
 
   position: relative;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 17px;
+  justify-content: center;
+
   align-items: center;
   cursor: pointer;
   outline: none;
@@ -941,6 +941,10 @@ header.header img {
 
 .hp-listings .listings-content2 .site-btn:hover {
   background: transparent;
+}
+.hp-listings .site-btn {
+  justify-content: flex-end;
+  padding-right: 17px;
 }
 
 /*#endregion Listings Region */
